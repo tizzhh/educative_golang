@@ -12,6 +12,6 @@ func main() {
 	*intP = 10
 	fmt.Println(intP, *intP, il)
 
-	// var p *int = nil    // Making a nil pointer
-	// *p = 0
+	var p *int = nil // Making a nil pointer
+	fmt.Println(p)
 }
