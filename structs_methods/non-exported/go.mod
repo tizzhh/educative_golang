@@ -1,0 +1,3 @@
+module non-exported
+
+go 1.21.0
