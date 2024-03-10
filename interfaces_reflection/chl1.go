@@ -27,8 +27,5 @@ func fI(it Simpler) int {
 func main() {
 	inf := Simpler(&Simple{10})
 	fmt.Println(fI(inf))
-
-	var aboba float32 = -3.0
-	fmt.Println(aboba / 0)
-
+	fmt.Println(fI(Simple{10}))
 }
